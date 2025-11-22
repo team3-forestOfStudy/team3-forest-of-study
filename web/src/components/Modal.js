@@ -1,4 +1,6 @@
+import "../styles/global.css"
 import "../styles/Modal.css"
+
 
 const Modal = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
@@ -6,9 +8,7 @@ const Modal = ({ isOpen, onClose, children }) => {
     return (
       <div className="modal-backdrop" onClick={onClose}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-          <button className="modal-close" onClick={onClose}>
-            나가기
-          </button>
+          
           {children}
         </div>
       </div>

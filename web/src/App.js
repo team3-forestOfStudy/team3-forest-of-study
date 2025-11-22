@@ -6,8 +6,8 @@ import Me from "./components/Toast_Message"
 function App() {
   return (
     <div>
-      {/* <Guide /> */}
-      {/* <Ex /> */}
+      <Guide />
+      <Ex />
       <Me />
     </div>
   );
