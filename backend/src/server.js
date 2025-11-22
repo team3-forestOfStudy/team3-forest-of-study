@@ -1,6 +1,6 @@
-// 모듈, 객체 불러오기 (require)
-const dotenv = require("dotenv"); // dotenv 모듈
-const app = require("./app.js"); // app.js에서 내보낸 app 객체를 가져옴
+// 모듈, 객체 불러오기
+import dotenv from "dotenv"; // dotenv 모듈
+import app from "./app.js"; // app.js에서 내보낸 app 객체를 가져옴
 
 dotenv.config(); // .env 파일 읽기
 
