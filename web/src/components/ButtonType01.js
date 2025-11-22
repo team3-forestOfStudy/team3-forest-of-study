@@ -1,6 +1,6 @@
-import "../styles/Button_type01.css";
+import "../styles/ButtonType01.css";
 
-function Button_type01({ buttonText, buttonClass }) {
+function ButtonType01({ buttonText, buttonClass }) {
   return (
     <>
       <button className={`Button01 ${buttonClass}`}>
@@ -12,4 +12,4 @@ function Button_type01({ buttonText, buttonClass }) {
   );
 }
 
-export default Button_type01;
+export default ButtonType01;

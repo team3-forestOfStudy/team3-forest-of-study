@@ -1,5 +1,5 @@
 import "../styles/guide.css";
-import Button_type01 from "../components/Button_type01";
+import ButtonType01 from "../components/ButtonType01";
 
 function Guide() {
   return (
@@ -182,13 +182,10 @@ function Guide() {
           <div className="g_box">
             <h2 className="g_tit">Button</h2>
             <h3 className="g_sub_tit">[Button]</h3>
-            <Button_type01
-              buttonText="오늘의 습관으로가기"
-              buttonClass="w100"
-            />
+            <ButtonType01 buttonText="오늘의 습관으로가기" buttonClass="w100" />
             <div className="g_button_group mt15">
-              <Button_type01 buttonText="취소" buttonClass="w50 bg_gray_300" />
-              <Button_type01 buttonText="만들기" buttonClass="w50" />
+              <ButtonType01 buttonText="취소" buttonClass="w50 bg_gray_300" />
+              <ButtonType01 buttonText="만들기" buttonClass="w50" />
             </div>
           </div>
         </div>
