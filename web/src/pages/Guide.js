@@ -182,10 +182,17 @@ function Guide() {
           <div className="g_box">
             <h2 className="g_tit">Button</h2>
             <h3 className="g_sub_tit">[Button]</h3>
-            <ButtonType01 buttonText="오늘의 습관으로가기" buttonClass="w100" />
+            <ButtonType01 buttonClass="w100" onClick="">
+              습관으로가기
+            </ButtonType01>
+
             <div className="g_button_group mt15">
-              <ButtonType01 buttonText="취소" buttonClass="w50 bg_gray_300" />
-              <ButtonType01 buttonText="만들기" buttonClass="w50" />
+              <ButtonType01 buttonClass="w50 bg_gray_300" onClick="">
+                취소
+              </ButtonType01>
+              <ButtonType01 buttonClass="w50" onClick="">
+                만들기
+              </ButtonType01>
             </div>
           </div>
         </div>
