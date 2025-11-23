@@ -12,12 +12,12 @@
 }
 
 .modal-content {
-  background: #fff;
-  padding: 24px;
-  width: 648px;
-  height: 369px;
-  border-radius: 20px;
   position: relative;
-  animation: fadeIn 0.2s ease-in-out;
+  padding: 40px 48px;
+  border-radius: 32px;
+  background: #ffffff;
+  width: 90%;
+  max-width: 540px;
+  margin: 0 auto;
 }
 
