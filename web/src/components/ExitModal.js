@@ -8,7 +8,7 @@ export default function ExitModal() {
   return (
     <>
       <button type="button" onClick={() => setOpen(true)}>
-        모달 열기
+        나가기모달 열기
       </button>
 
       <Modal className="boxModal" isOpen={open} onClose={() => setOpen(false)}>
