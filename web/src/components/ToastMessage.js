@@ -1,7 +1,7 @@
 // src/components/ToastMessage.js
 import { useCallback, useState } from "react";
 import { TOAST_MESSAGE } from "./Atoms/Message";
-import Toast from "./Atoms/Toast"; // ⬅ default import
+import Toast from "./Atoms/Toast"; 
 
 let toastId = 0;
 

@@ -1,7 +1,6 @@
-import "../styles/ButtonType01.css";
 import "../styles/PasswordModal.css";
 import React, { useState } from "react";
-import Modal from "./Modal";
+import Modal from "./Atoms/Modal.js";
 import { Title } from "../mock/Title.js";
 import eyeInvisible from "../assets/icons/eyes.svg";
 import eyeVisible from "../assets/icons/visible.svg";
