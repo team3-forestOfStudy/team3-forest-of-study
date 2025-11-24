@@ -24,5 +24,16 @@ app.get("/health", (req, res) => {
 // 앞으로 여기에 라우터들 붙이기!
 app.use("/api", apiRouter);
 
+// 공통 에러 핸들러 미들웨어
+app.use((err, req, res, next) => {
+  console.error(error); // 서버 콘솔에 에러 기록
+
+  res.status(500).send({
+    result: "fail",
+    message: "서버 내부 오류가 발생했습니다.",
+    data: null,
+  });
+});
+
 // app 객체를 다른 파일에서 사용할 수 있도록 export
 export default app;
